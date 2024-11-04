@@ -22,8 +22,6 @@
             } else {
                 echo "<p>Você ainda não pode dirigir. Vai estudar!</p>";
             }
-            header("Location: " . $_SERVER['PHP_SELF']);
-            exit();
         }
     ?>
     
